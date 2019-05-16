@@ -1,0 +1,97 @@
+/*wat doen wij? stuk, tekst in het midden*/
+.watDoenWij
+  max-width: 1130px
+  text-align: center
+  background-color: #fff
+  margin: 0 auto
+  h2
+    @extend a
+  button
+    border: none
+    padding: 1em 3em
+    cursor: pointer
+    margin: 1em
+    border-radius: 5px
+    color: #fff
+    background-color: $hoofdkleur
+  a
+    text-decoration: none
+    color: $hoofdkleur
+  img
+    float: right
+    margin-top: -100px
+    margin-right: 13%
+
+/* 4 blokken met foto en tekst */
+
+.wrapper
+  width: 1130px
+  +grid-template-columns(repeat(4, 1fr))
+  display: grid
+  margin-top: 3em
+  grid-gap: 2em
+  a, h3
+    text-decoration: none
+    color: #0073CF
+
+.marginAuto
+  max-width: 1130px
+  margin: 0 auto
+
+/* lichtblauw */
+
+.lichtblauw
+  background-color: $lichtblauw
+  margin: 0
+  width: 100vw
+  margin-top: 3em
+
+/* winactie blok */
+
+.winactie
+  max-width: 1130px
+  margin: 0 auto
+  color: #fff
+  height: 400px
+  +grid-template-columns(1fr 1fr)
+  display: grid
+  button
+    border: 2px solid #fff
+    background-color: $hoofdkleur
+    color: #fff
+    padding: 1em 2em
+    border-radius: 7px
+    cursor: pointer
+    margin-top: 2.2em
+
+.ipadRechts
+  position: absolute
+  margin-left: 360px
+  margin-top: -100px
+
+.rechts, .links
+  margin: auto
+
+.links
+  margin-right: 2.2em
+
+/* Contact */
+
+.contact
+  margin: 0 auto
+  max-width: 1130px
+  text-align: center
+  padding: 2.2em 0
+  h2
+    color: $hoofdkleur
+  img
+    float: right
+    margin-top: -30px
+    margin-left: 2.2em
+  button
+    border: 0px
+    background-color: $hoofdkleur
+    color: #fff
+    padding: .7em 1.5em
+    border-radius: 10px
+    cursor: pointer

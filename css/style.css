@@ -1,0 +1,225 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+button:hover {
+  text-shadow: 0px 0px 6px white;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1130px;
+  height: 50px;
+  background-color: #fff;
+  padding: 0.5em 0;
+}
+nav img {
+  width: 185px;
+  text-align: left;
+  float: left;
+}
+nav .menu {
+  text-align: right;
+  float: right;
+  color: #0073CF;
+}
+nav .menu p {
+  float: left;
+  margin-right: 1em;
+}
+nav .menu img {
+  height: 1em;
+  width: 1em;
+  margin: 16px;
+}
+
+header {
+  background-image: url("../img/slide-iddink1.jpg");
+  width: 100%;
+  height: 220px;
+}
+
+.header {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 2.2em 0;
+}
+
+.headerTekst {
+  display: inline-block;
+  width: 400px;
+  font-size: 22px;
+  color: #fff;
+}
+.headerTekst button {
+  margin-left: 260px;
+  border: 2px solid #fff;
+  background-color: #0073CF;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 130px;
+}
+
+.headerImage {
+  float: right;
+  display: inline-block;
+}
+
+/*wat doen wij? stuk, tekst in het midden*/
+.watDoenWij {
+  max-width: 1130px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.watDoenWij button {
+  border: none;
+  padding: 1em 3em;
+  cursor: pointer;
+  margin: 1em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0073CF;
+}
+.watDoenWij a, .watDoenWij h2 {
+  text-decoration: none;
+  color: #0073CF;
+}
+.watDoenWij img {
+  float: right;
+  margin-top: -100px;
+  margin-right: 13%;
+}
+
+/* 4 blokken met foto en tekst */
+.wrapper {
+  width: 1130px;
+  -webkit-grid-template-columns: repeat(4, 1fr);
+  -moz-grid-template-columns: repeat(4, 1fr);
+  -ms-grid-template-columns: repeat(4, 1fr);
+  -o-grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  margin-top: 3em;
+  grid-gap: 2em;
+}
+.wrapper a, .wrapper .watDoenWij h2, .watDoenWij .wrapper h2, .wrapper h3 {
+  text-decoration: none;
+  color: #0073CF;
+}
+
+.marginAuto {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+/* lichtblauw */
+.lichtblauw {
+  background-color: rgba(0, 115, 203, 0.5);
+  margin: 0;
+  width: 100vw;
+  margin-top: 3em;
+}
+
+/* winactie blok */
+.winactie {
+  max-width: 1130px;
+  margin: 0 auto;
+  color: #fff;
+  height: 400px;
+  -webkit-grid-template-columns: 1fr 1fr;
+  -moz-grid-template-columns: 1fr 1fr;
+  -ms-grid-template-columns: 1fr 1fr;
+  -o-grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+.winactie button {
+  border: 2px solid #fff;
+  background-color: #0073CF;
+  color: #fff;
+  padding: 1em 2em;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 2.2em;
+}
+
+.ipadRechts {
+  position: absolute;
+  margin-left: 360px;
+  margin-top: -100px;
+}
+
+.rechts, .links {
+  margin: auto;
+}
+
+.links {
+  margin-right: 2.2em;
+}
+
+/* Contact */
+.contact {
+  margin: 0 auto;
+  max-width: 1130px;
+  text-align: center;
+  padding: 2.2em 0;
+}
+.contact h2 {
+  color: #0073CF;
+}
+.contact img {
+  float: right;
+  margin-top: -30px;
+  margin-left: 2.2em;
+}
+.contact button {
+  border: 0px;
+  background-color: #0073CF;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #0073CF;
+  color: #fff;
+  padding: 2.2em 0;
+  margin: 0 auto;
+}
+
+.footerNav {
+  float: right;
+}
+.footerNav a, .footerNav .watDoenWij h2, .watDoenWij .footerNav h2 {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+.aContact {
+  margin: 0 !important;
+}
+
+.footer, .footer2, .footer2 p {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.footer2, .footer2 p {
+  margin-top: 1em;
+}
+.footer2 p {
+  display: inline-block;
+}
+
+.copyright {
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
