@@ -6,6 +6,7 @@ body {
 
 button:hover {
   text-shadow: 0px 0px 6px white;
+  background-color: #003a69 !important;
 }
 
 nav {
@@ -119,7 +120,7 @@ header {
 
 /* lichtblauw */
 .lichtblauw {
-  background-color: rgba(0, 115, 203, 0.5);
+  background-color: #9cd3ff;
   margin: 0;
   width: 100vw;
   margin-top: 3em;
